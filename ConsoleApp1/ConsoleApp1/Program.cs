@@ -113,6 +113,59 @@ class Book
     /// <summary>
     /// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     /// </summary>
+    
+    class Point
+    {
+        int x;
+        int y;
+        string name;
+
+        public int X { get => x; }
+        public int Y { get => y; }
+        public string Name { get => name; }
+        public Point(int x, int y, string s)
+        {
+            this.x = x;
+            this.y = y;
+            this.name = s;
+        }
+    }
+    class Figure
+    {
+        double Perimetr;
+
+        public Figure(Point A, Point B, Point C)
+        {
+           Perimetr = LenghtSide(A, B) + LenghtSide(B, C) + LenghtSide(C, A);
+            Console.WriteLine("Треугольник. Периметр = " + Perimetr);
+        }
+        public Figure(Point A, Point B, Point C, Point D)
+        {
+            Perimetr = LenghtSide(A, B) + LenghtSide(B, C) + LenghtSide(C, D) + LenghtSide(D,A);
+            Console.WriteLine("Квадрат. Периметр = " + Perimetr);
+        }
+        public Figure(Point A, Point B, Point C, Point D, Point E)
+        {
+            Perimetr = LenghtSide(A, B) + LenghtSide(B, C) + LenghtSide(C, D) + LenghtSide(D,E)+LenghtSide(E,A);
+            Console.WriteLine("Пятиугольник. Периметр = " + Perimetr);
+        }
+        double LenghtSide(Point A, Point B)
+        {
+            double Lenght;
+            Lenght = Math.Sqrt(Math.Pow((A.X - B.X),2) + Math.Pow((A.Y - B.Y),2));
+            return Lenght;
+        }
+        //void PerimetrCalculator() Понятия не имею, как это применить в коде(в том виде, как оно дано в условии задания)
+        //Уточню на встрече
+        //{
+
+        //}
+    }
+
+    /// <summary>
+    /// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /// </summary>
+    
     class Program
     {
         static void dialoge(ref  int choose)// диалог
@@ -175,6 +228,18 @@ class Book
                         string content = Console.ReadLine();
                         book.AddContent(content);
                         book.ShowInfo();
+                        Console.ReadKey();
+                        break;
+                    case 4:
+                        Console.Clear();
+                        Point A = new Point(2, 2, "A");
+                        Point B = new Point(4, 6, "B");
+                        Point C = new Point(3, 1, "C");
+                        Point D = new Point(5, 2, "D");
+                        Point E = new Point(2, 4, "E");
+                        Figure tr = new Figure(A,B,C);
+                        Figure kv = new Figure(A, B, C, D);
+                        Figure fv = new Figure(A, B, C, D, E);
                         Console.ReadKey();
                         break;
                     case 13:
