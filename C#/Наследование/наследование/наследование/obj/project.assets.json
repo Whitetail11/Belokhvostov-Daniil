@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danya\\OneDrive\\Документы\\GitHub\\Belokhvostov-Daniil\\C#\\1 задание\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\danya\\OneDrive\\Документы\\GitHub\\Belokhvostov-Daniil\\C#\\1 задание\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\danya\\OneDrive\\Документы\\GitHub\\Belokhvostov-Daniil\\C#\\Наследование\\наследование\\наследование\\наследование.csproj",
+      "projectName": "наследование",
+      "projectPath": "C:\\Users\\danya\\OneDrive\\Документы\\GitHub\\Belokhvostov-Daniil\\C#\\Наследование\\наследование\\наследование\\наследование.csproj",
       "packagesPath": "C:\\Users\\danya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danya\\OneDrive\\Документы\\GitHub\\Belokhvostov-Daniil\\C#\\1 задание\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\danya\\OneDrive\\Документы\\GitHub\\Belokhvostov-Daniil\\C#\\Наследование\\наследование\\наследование\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

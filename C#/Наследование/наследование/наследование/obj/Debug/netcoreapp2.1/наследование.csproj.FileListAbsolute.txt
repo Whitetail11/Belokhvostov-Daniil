@@ -1,0 +1,11 @@
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Наследование\наследование\наследование\bin\Debug\netcoreapp2.1\наследование.deps.json
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Наследование\наследование\наследование\bin\Debug\netcoreapp2.1\наследование.runtimeconfig.json
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Наследование\наследование\наследование\bin\Debug\netcoreapp2.1\наследование.runtimeconfig.dev.json
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Наследование\наследование\наследование\bin\Debug\netcoreapp2.1\наследование.dll
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Наследование\наследование\наследование\bin\Debug\netcoreapp2.1\наследование.pdb
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Наследование\наследование\наследование\obj\Debug\netcoreapp2.1\наследование.csprojAssemblyReference.cache
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Наследование\наследование\наследование\obj\Debug\netcoreapp2.1\наследование.csproj.CoreCompileInputs.cache
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Наследование\наследование\наследование\obj\Debug\netcoreapp2.1\наследование.AssemblyInfoInputs.cache
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Наследование\наследование\наследование\obj\Debug\netcoreapp2.1\наследование.AssemblyInfo.cs
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Наследование\наследование\наследование\obj\Debug\netcoreapp2.1\наследование.dll
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Наследование\наследование\наследование\obj\Debug\netcoreapp2.1\наследование.pdb
