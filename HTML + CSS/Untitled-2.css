@@ -6,10 +6,9 @@ body {
     font-family: Arial Narrow, sans-serif;
     background: #faf9f9;
     padding: 0px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 40%;
     height: 100%;
 }
 header {
@@ -33,6 +32,11 @@ button {
     top: 50%;
     left: 100%;
     transform: translate(-115%, -50%);
+    color: white;
+    background-color:  rgb(194, 70, 132);
+    padding: .7em 1.5em;
+    outline: none;
+    border: none;
 }
 .first-container {
     border-top: 1.5px solid  #dbd6f0;
@@ -52,5 +56,14 @@ input[type="text"] {
     border-bottom: 1.5px solid #dbd6f0;
 }
 .Last-name {
-    
-}
+    margin-left: 0;
+    margin-right: 0;
+    width: 45%;
+    display: inline;
+  }
+  .First-name {
+    margin-left: 0;
+    margin-right: 0;
+    width: 45%;
+    display: inline; 
+  }
