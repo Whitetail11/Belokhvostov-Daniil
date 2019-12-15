@@ -1,27 +1,55 @@
 <!DOCTYPE  html>
 <html lang = "en">
-    <head>
+    <head >
         <meta charset="UTF-8">
         <link rel="stylesheet" href="Untitled-2.css">
-
         <title>Document</title>
     </head>
-    <body>
-        <header>
-            <h1>Chekout form</h1>
-        </header>
-        <main>
-            <div>
-            <form>
-                <p align = left><input type="text" name="q"></p>
-            </form>
-            <form class = "form2">
-                <p align = right><input type="text" name="d"></p>
-            </form>
+    <body >
+        <div id="globalform">
+            <header>
+                <h2>Chekout form</h2>
+            </header>
+            <main>
+                <div class="first-container">
+                    <div class="First-name">
+                        <input type="text" value="First name" id="first-name">
+                        <br>
+                        <input type="text" value="E-mail">
+                    </div>
+                    <div class="Last-name">
+                        <input type="text" value="Last name" id="last-name">
+                        <br>
+                        <input type="text" value="Phone">
+                    </div >
+                 
+                </div>
+                <div class = "second-container">
+                    <p><select>
+                        <option>Country</option>
+                       </select>
+                       <input type="text" value="city">
+                       <input type="text" value="Post code"></p>
+                        <p><input type="text" value="Adsress"></p>
+                        <p><input type="text" value="Additional info"></p>
+                </div>
+                <div class="third-container">
+                    <p><input type="checkbox"><label>Visa</label>
+                       <input type="checkbox"><label>MasterCard</label>
+                       <input type="checkbox"><label>PayPal</label>
+                    </p>
+                    <p><input type="text" value="Name on card"></p>
+                    <p><input type="text" value="Card numberd"><input type="text" value="CVV2"></p>
+                    <p><label>Expiration date</label>
+                    <select>
+                        <option>Month</option>
+                    </select>
+                    </p><input type="text" value="Year"></p>
+                </div>
+            </main>
+            <footer>
+                <button>Continue</button>
+            </footer>
         </div>
-        </main>
-        <footer>
-            <button>Continue</button>
-        </footer>
     </body>
 </html>

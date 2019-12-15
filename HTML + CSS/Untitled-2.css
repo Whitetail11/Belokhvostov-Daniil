@@ -1,3 +1,56 @@
-.form2 {
-    margin-top: -2.4em;
+
+body {
+    background: linear-gradient(to top, #0e0e0e, #6f5d97, #cfd0fc, #c5c1fc) no-repeat fixed;
+}
+#globalform {
+    font-family: Arial Narrow, sans-serif;
+    background: #faf9f9;
+    padding: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+header {
+    padding: 1%;
+    height: 70px;
+    background: rgb(233, 232, 232);
+    position: relative;
+}
+H2 {
+    position: absolute;
+    transform: translate(5%, 0%);
+}
+footer {
+    padding: 1%;
+    height: 70px;
+    background: rgb(233, 232, 232);
+    position: relative;
+}
+button {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-115%, -50%);
+}
+.first-container {
+    border-top: 1.5px solid  #dbd6f0;
+    border-bottom: 1.5px solid #dbd6f0;
+    padding: 20px;
+}
+input[type="text"] {
+    color: #aea4d6;
+    width:200px;
+    height:25px;
+    border: 1.5px solid #dbd6f0;
+}
+.second-container {
+    border-bottom: 1.5px solid #dbd6f0;
+}
+.third-container {
+    border-bottom: 1.5px solid #dbd6f0;
+}
+.Last-name {
+    
 }
