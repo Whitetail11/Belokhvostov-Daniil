@@ -1,69 +1,208 @@
 
-body {
-    background: linear-gradient(to top, #0e0e0e, #6f5d97, #cfd0fc, #c5c1fc) no-repeat fixed;
-}
 #globalform {
-    font-family: Arial Narrow, sans-serif;
-    background: #faf9f9;
-    padding: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #faf9f9;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  height: 100%;
+  border: 40px solid transparent;  
+  -moz-border-image: -moz-linear-gradient(top, #c5c1fc 0%, #2c0a5a 100%);  
+  -webkit-border-image: -webkit-linear-gradient(top, #c5c1fc 0%, #2c0a5a 100%);  
+  border-image: linear-gradient(to bottombottom, #c5c1fc 0%, #2c0a5a 100%);  
+  border-image-slice: 1;  
 }
 header {
-    padding: 1%;
-    height: 70px;
-    background: rgb(233, 232, 232);
-    position: relative;
+  padding: 0 0 0 10px;
+  height: 70px;
+  background: rgb(233, 232, 232);
+  position: relative;
 }
-H2 {
-    position: absolute;
-    transform: translate(5%, 0%);
+h2 {
+  position: absolute;
+  transform: translate(5%, 0%);
 }
 footer {
-    padding: 1%;
-    height: 70px;
-    background: rgb(233, 232, 232);
-    position: relative;
+  padding: 1%;
+  height: 70px;
+  background: rgb(233, 232, 232);
+  position: relative;
 }
 button {
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    transform: translate(-115%, -50%);
-    color: white;
-    background-color:  rgb(194, 70, 132);
-    padding: .7em 1.5em;
-    outline: none;
-    border: none;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-115%, -50%);
+  padding: 0.7em 1.5em;
+  background: rgb(206, 70, 194);
+  color: white;
+  border: 0;
 }
 .first-container {
-    border-top: 1.5px solid  #dbd6f0;
-    border-bottom: 1.5px solid #dbd6f0;
-    padding: 20px;
+  border-top: 1.5px solid #dbd6f0;
+  border-bottom: 1.5px solid #dbd6f0;
+  padding: 20px;
 }
 input[type="text"] {
-    color: #aea4d6;
-    width:200px;
-    height:25px;
-    border: 1.5px solid #dbd6f0;
+  color: #b3acce;
+  width: 200px;
+  height: 25px;
+  border: 1.5px solid #dbd6f0;
+  padding-left: 3px;
+}
+/* Customize the label (the container) */
+.container {
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border: 1px;
+  border-radius: 50%;
+  border: 1.5px solid #dbd6f0;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: white;
+  border: 1.5px solid rgb(206, 70, 194);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  margin-top: -5px;
+  margin-left: -5px;
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgb(206, 70, 194);
 }
 .second-container {
-    border-bottom: 1.5px solid #dbd6f0;
+  border-bottom: 1.5px solid #dbd6f0;
+  padding: 20px;
 }
 .third-container {
-    border-bottom: 1.5px solid #dbd6f0;
+  border-bottom: 1.5px solid #dbd6f0;
+  padding: 20px;
 }
-.Last-name {
-    margin-left: 0;
-    margin-right: 0;
-    width: 45%;
-    display: inline;
-  }
-  .First-name {
-    margin-left: 0;
-    margin-right: 0;
-    width: 45%;
-    display: inline; 
-  }
+#Phone {
+  display: block;
+  margin-top: -30px;
+  margin-left: auto;
+}
+#last-name {
+  display: block;
+  margin-top: -30px;
+  margin-left: auto;
+}
+#E-mail {
+  margin-top: 20px;
+}
+select {
+  color: solid black;
+  width: 170px;
+  height: 30px;
+  border: 1.5px solid #dbd6f0;
+}
+#city {
+  width: 150px;
+  display: block;
+  margin-top: -30px;
+  margin-left: 185px;
+}
+#post-code {
+  width: 120px;
+  display: block;
+  margin-left: auto;
+  margin-top: -30px;
+}
+#Ad-info {
+  margin-top: 10px;
+  display: block;
+  width: 99%;
+  height: 100px;
+  border: 1.5px solid #dbd6f0;
+  resize: none;
+}
+#Address {
+  width: 99%;
+  display: block;
+  margin-top: 10px;
+}
+#name-card {
+  width: 99%;
+  display: block;
+  margin-top: 10px;
+}
+#card-numberd {
+  width: 390px;
+  display: block;
+  margin-top: 10px;
+}
+#CVV2 {
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-top: -30px;
+}
+#date {
+  display: block;
+  margin-top: 15px;
+  font-size: 11pt;
+}
+#Month {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+#year {
+  display: block;
+  width: 90px;
+  margin-top: -30px;
+  margin-left: auto;
+}
