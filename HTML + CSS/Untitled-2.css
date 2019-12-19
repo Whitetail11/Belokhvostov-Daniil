@@ -92,7 +92,7 @@ input[type="text"] {
   background-color: #ccc;
 }
 
-/* When the radio button is checked, add a blue background */
+/* When the radio button is checked, add  background */
 .container input:checked ~ .checkmark {
   background-color: white;
   border: 1.5px solid rgb(206, 70, 194);
