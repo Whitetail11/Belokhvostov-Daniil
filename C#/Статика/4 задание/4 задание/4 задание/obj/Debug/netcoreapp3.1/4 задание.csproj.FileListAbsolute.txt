@@ -1,0 +1,11 @@
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Статика\4 задание\4 задание\4 задание\bin\Debug\netcoreapp3.1\4 задание.exe
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Статика\4 задание\4 задание\4 задание\bin\Debug\netcoreapp3.1\4 задание.deps.json
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Статика\4 задание\4 задание\4 задание\bin\Debug\netcoreapp3.1\4 задание.runtimeconfig.json
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Статика\4 задание\4 задание\4 задание\bin\Debug\netcoreapp3.1\4 задание.runtimeconfig.dev.json
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Статика\4 задание\4 задание\4 задание\bin\Debug\netcoreapp3.1\4 задание.dll
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Статика\4 задание\4 задание\4 задание\bin\Debug\netcoreapp3.1\4 задание.pdb
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Статика\4 задание\4 задание\4 задание\obj\Debug\netcoreapp3.1\4 задание.csprojAssemblyReference.cache
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Статика\4 задание\4 задание\4 задание\obj\Debug\netcoreapp3.1\4 задание.AssemblyInfoInputs.cache
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Статика\4 задание\4 задание\4 задание\obj\Debug\netcoreapp3.1\4 задание.AssemblyInfo.cs
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Статика\4 задание\4 задание\4 задание\obj\Debug\netcoreapp3.1\4 задание.dll
+C:\Users\danya\OneDrive\Документы\GitHub\Belokhvostov-Daniil\C#\Статика\4 задание\4 задание\4 задание\obj\Debug\netcoreapp3.1\4 задание.pdb
