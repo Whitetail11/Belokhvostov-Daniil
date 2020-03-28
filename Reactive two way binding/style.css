@@ -61,3 +61,6 @@ body {
 .finaly__cost {
     margin: 20px;
 }
+input[type="text"] {
+    border: none;
+}
