@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>
+            Reactive two way binding
+        </title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="wrapper">
+                <ul class="list">
+                    <li class="field">
+                        <div class="field__header">
+                            <p>Please choose hotel (cost per day)</p>
+                        </div>
+                        <div class="field__info">
+                            <div class="radio__button">
+                                <input type="radio" id="hotel1" name="hotel" value="hotel1" checked>
+                                <label for="hotel1">MGM Grand</label>
+                            </div>
+                            <div class="radio__button">
+                                <input type="radio" id="hotel2" name="hotel" value="hotel2">
+                                <label for="hotel2">CityCenter</label>
+                            </div>
+                            <div class="radio__button">
+                                <input type="radio" id="hotel3" name="hotel" value="hotel3">
+                                <label for="hotel3">The Palazzo</label>
+                            </div>
+                            <div class="radio__button">
+                                <input type="radio" id="hotel4" name="hotel" value="hotel4">
+                                <label for="hotel4">The Mirage</label>
+                            </div>
+                            <div class="price__field">
+                                <p>1000$</p>
+                            </div>
+                            <div class="price__field">
+                                <p>1500$</p>
+                            </div>
+                            <div class="price__field">
+                                <p>700$</p>
+                            </div>
+                            <div class="price__field">
+                                <p>300$</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="field">
+                        <div class="field__header">
+                            <p>Plese сhoose check-in and check-out date</p>
+                        </div>
+                        <div class="field__info">
+                            <div class="date">
+                                <p>From</p>
+                                <input type="date" id="startdate" value="2000-12-08">
+                            </div>
+                            <div class="date">
+                                <p>Until</p>
+                                <input type="date" id="enddate" value="2000-12-12">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="finaly__cost">
+                    <p>
+                        Стоимость<p id="days"></p> ночей в выбранном отеле стоит <p id="sum"></p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
