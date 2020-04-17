@@ -17,11 +17,13 @@ namespace ConsoleApp1
             var http = website.IndexOf("http://");
             if (http != -1)
                 website = website.Substring(http + 7);
-            var massage = $"GET / HTTP/1.0\r\nHost: {website}\r\n\r\n";
+            var value1 = website.Substring(website.IndexOf("/")+1);
+            var value2 = website.Substring(0, website.IndexOf("/"));
+            var massage = $"GET /{value1} HTTP/1.0\r\nHost: {value2}\r\n\r\n";
             try
             {
                 var port = 80;
-                var serverAddr = website;
+                var serverAddr = value2;
                 var Client = new TcpClient(serverAddr, port);
                 var data = System.Text.Encoding.ASCII.GetBytes(massage);
                 NetworkStream stream = Client.GetStream();
