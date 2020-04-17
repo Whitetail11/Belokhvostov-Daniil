@@ -28,28 +28,19 @@ namespace ConsoleApp1
                 FileStream aFile = new FileStream(fileName, FileMode.Create);
                 StreamWriter sw = new StreamWriter(aFile);
                 aFile.Seek(0, SeekOrigin.End);
-                var data1 = new byte[32];
+                var data1 = new byte[256];
                 do
                 {
                     int bytes = stream.Read(data1, 0, data1.Length);
                     var res = System.Text.Encoding.ASCII.GetString(data1, 0, bytes);
-                    //responceData.Append(res);
-                    if (res.IndexOf("<html") != -1)
-                    {
-                        sw.Write(res);
-                        do
-                        {
-                            bytes = stream.Read(data1, 0, data1.Length);
-                            res = System.Text.Encoding.ASCII.GetString(data1, 0, bytes);
-                            sw.Write(res);
-                        } while (stream.DataAvailable);
-                        break;
-                    }
-
+                    responceData.Append(res);
                 } while (stream.DataAvailable);
+                
+                responceData.Remove(0, responceData.ToString().IndexOf("\n\r\n") + 2);
+                sw.Write(responceData);
                 sw.Close();
 
-               // Console.WriteLine("Recived {0}", responceData);
+                Console.WriteLine("Recived\n {0}", responceData);
                 stream.Close();
                 Client.Close();
             }

@@ -11,3 +11,16 @@ D:\проекты 2 семестр\Клиент-сервер\TCP client\ConsoleA
 D:\проекты 2 семестр\Клиент-сервер\TCP client\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
 D:\проекты 2 семестр\Клиент-сервер\TCP client\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
 D:\проекты 2 семестр\Клиент-сервер\TCP client\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+D:\github\Belokhvostov-Daniil2\CLIENT\TCP client\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+D:\github\Belokhvostov-Daniil2\CLIENT\TCP client\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+D:\github\Belokhvostov-Daniil2\CLIENT\TCP client\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+D:\github\Belokhvostov-Daniil2\CLIENT\TCP client\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+D:\github\Belokhvostov-Daniil2\CLIENT\TCP client\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\github\Belokhvostov-Daniil2\CLIENT\TCP client\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\github\Belokhvostov-Daniil2\CLIENT\TCP client\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+D:\github\Belokhvostov-Daniil2\CLIENT\TCP client\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\github\Belokhvostov-Daniil2\CLIENT\TCP client\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+D:\github\Belokhvostov-Daniil2\CLIENT\TCP client\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+D:\github\Belokhvostov-Daniil2\CLIENT\TCP client\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\github\Belokhvostov-Daniil2\CLIENT\TCP client\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\github\Belokhvostov-Daniil2\CLIENT\TCP client\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache

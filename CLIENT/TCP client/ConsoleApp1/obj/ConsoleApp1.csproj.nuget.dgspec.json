@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\проекты 2 семестр\\Клиент-сервер\\TCP client\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "D:\\github\\Belokhvostov-Daniil2\\CLIENT\\TCP client\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "D:\\проекты 2 семестр\\Клиент-сервер\\TCP client\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "D:\\github\\Belokhvostov-Daniil2\\CLIENT\\TCP client\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\проекты 2 семестр\\Клиент-сервер\\TCP client\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "D:\\github\\Belokhvostov-Daniil2\\CLIENT\\TCP client\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "D:\\проекты 2 семестр\\Клиент-сервер\\TCP client\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "D:\\github\\Belokhvostov-Daniil2\\CLIENT\\TCP client\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\danya\\.nuget\\packages\\",
-        "outputPath": "D:\\проекты 2 семестр\\Клиент-сервер\\TCP client\\ConsoleApp1\\obj\\",
+        "outputPath": "D:\\github\\Belokhvostov-Daniil2\\CLIENT\\TCP client\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
