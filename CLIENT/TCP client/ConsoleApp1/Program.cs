@@ -10,12 +10,18 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-          
-            var massage = "GET / HTTP/1.0\n\n";
+            Console.WriteLine("Введите вебсайт:");
+            var website = Console.ReadLine();
+            Console.WriteLine("Введите имя файла в который записать: ");
+            string fileName = Console.ReadLine();
+            var http = website.IndexOf("http://");
+            if (http != -1)
+                website = website.Substring(http + 7);
+            var massage = $"GET / HTTP/1.0\r\nHost: {website}\r\n\r\n";
             try
             {
                 var port = 80;
-                var serverAddr = "selin.in.ua";
+                var serverAddr = website;
                 var Client = new TcpClient(serverAddr, port);
                 var data = System.Text.Encoding.ASCII.GetBytes(massage);
                 NetworkStream stream = Client.GetStream();
@@ -23,8 +29,7 @@ namespace ConsoleApp1
                 Console.WriteLine("Sent {0}", massage);
 
                 var responceData = new StringBuilder();
-                Console.WriteLine("Введите имя файла в который записать: ");
-                string fileName = Console.ReadLine();
+               
                 FileStream aFile = new FileStream(fileName, FileMode.Create);
                 StreamWriter sw = new StreamWriter(aFile);
                 aFile.Seek(0, SeekOrigin.End);
