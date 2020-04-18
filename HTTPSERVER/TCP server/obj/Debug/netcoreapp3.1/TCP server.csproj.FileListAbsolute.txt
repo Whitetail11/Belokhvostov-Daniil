@@ -1,0 +1,26 @@
+D:\проекты 2 семестр\Клиент-сервер\TCP server\TCP server\bin\Debug\netcoreapp3.1\TCP server.exe
+D:\проекты 2 семестр\Клиент-сервер\TCP server\TCP server\bin\Debug\netcoreapp3.1\TCP server.deps.json
+D:\проекты 2 семестр\Клиент-сервер\TCP server\TCP server\bin\Debug\netcoreapp3.1\TCP server.runtimeconfig.json
+D:\проекты 2 семестр\Клиент-сервер\TCP server\TCP server\bin\Debug\netcoreapp3.1\TCP server.runtimeconfig.dev.json
+D:\проекты 2 семестр\Клиент-сервер\TCP server\TCP server\bin\Debug\netcoreapp3.1\TCP server.dll
+D:\проекты 2 семестр\Клиент-сервер\TCP server\TCP server\bin\Debug\netcoreapp3.1\TCP server.pdb
+D:\проекты 2 семестр\Клиент-сервер\TCP server\TCP server\obj\Debug\netcoreapp3.1\TCP server.csprojAssemblyReference.cache
+D:\проекты 2 семестр\Клиент-сервер\TCP server\TCP server\obj\Debug\netcoreapp3.1\TCP server.csproj.CoreCompileInputs.cache
+D:\проекты 2 семестр\Клиент-сервер\TCP server\TCP server\obj\Debug\netcoreapp3.1\TCP server.AssemblyInfoInputs.cache
+D:\проекты 2 семестр\Клиент-сервер\TCP server\TCP server\obj\Debug\netcoreapp3.1\TCP server.AssemblyInfo.cs
+D:\проекты 2 семестр\Клиент-сервер\TCP server\TCP server\obj\Debug\netcoreapp3.1\TCP server.dll
+D:\проекты 2 семестр\Клиент-сервер\TCP server\TCP server\obj\Debug\netcoreapp3.1\TCP server.pdb
+D:\проекты 2 семестр\Клиент-сервер\TCP server\TCP server\obj\Debug\netcoreapp3.1\TCP server.genruntimeconfig.cache
+D:\github\Belokhvostov-Daniil2\HTTPSERVER\TCP server\bin\Debug\netcoreapp3.1\TCP server.exe
+D:\github\Belokhvostov-Daniil2\HTTPSERVER\TCP server\bin\Debug\netcoreapp3.1\TCP server.deps.json
+D:\github\Belokhvostov-Daniil2\HTTPSERVER\TCP server\bin\Debug\netcoreapp3.1\TCP server.runtimeconfig.json
+D:\github\Belokhvostov-Daniil2\HTTPSERVER\TCP server\bin\Debug\netcoreapp3.1\TCP server.runtimeconfig.dev.json
+D:\github\Belokhvostov-Daniil2\HTTPSERVER\TCP server\bin\Debug\netcoreapp3.1\TCP server.dll
+D:\github\Belokhvostov-Daniil2\HTTPSERVER\TCP server\bin\Debug\netcoreapp3.1\TCP server.pdb
+D:\github\Belokhvostov-Daniil2\HTTPSERVER\TCP server\obj\Debug\netcoreapp3.1\TCP server.csprojAssemblyReference.cache
+D:\github\Belokhvostov-Daniil2\HTTPSERVER\TCP server\obj\Debug\netcoreapp3.1\TCP server.csproj.CoreCompileInputs.cache
+D:\github\Belokhvostov-Daniil2\HTTPSERVER\TCP server\obj\Debug\netcoreapp3.1\TCP server.AssemblyInfoInputs.cache
+D:\github\Belokhvostov-Daniil2\HTTPSERVER\TCP server\obj\Debug\netcoreapp3.1\TCP server.AssemblyInfo.cs
+D:\github\Belokhvostov-Daniil2\HTTPSERVER\TCP server\obj\Debug\netcoreapp3.1\TCP server.dll
+D:\github\Belokhvostov-Daniil2\HTTPSERVER\TCP server\obj\Debug\netcoreapp3.1\TCP server.pdb
+D:\github\Belokhvostov-Daniil2\HTTPSERVER\TCP server\obj\Debug\netcoreapp3.1\TCP server.genruntimeconfig.cache
