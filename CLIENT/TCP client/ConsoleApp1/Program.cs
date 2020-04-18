@@ -15,10 +15,18 @@ namespace ConsoleApp1
             Console.WriteLine("Введите имя файла в который записать: ");
             string fileName = Console.ReadLine();
             var http = website.IndexOf("http://");
+            var value1 = "";
+            
             if (http != -1)
                 website = website.Substring(http + 7);
-            var value1 = website.Substring(website.IndexOf("/")+1);
-            var value2 = website.Substring(0, website.IndexOf("/"));
+            var value2 = website;
+            if (website.IndexOf("/")!=-1)
+            {
+                 value1 = website.Substring(website.IndexOf("/")+1);
+                 value2 = website.Substring(0, website.IndexOf("/"));
+            }
+            
+            
             var massage = $"GET /{value1} HTTP/1.0\r\nHost: {value2}\r\n\r\n";
             try
             {
