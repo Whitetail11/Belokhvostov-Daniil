@@ -35,7 +35,7 @@ namespace TCP_server
                 var localAddr = IPAddress.Any;
                 var server = new TcpListener(localAddr, port);
                 server.Start();
-                var bytes = new Byte[256];
+                var bytes = new Byte[512];
                 while (true)
                 {
                     Console.WriteLine("Waiting for connection . . .");
@@ -46,13 +46,22 @@ namespace TCP_server
                     var bytesReadCount = stream.Read(bytes, 0, bytes.Length);
                     var data = System.Text.Encoding.ASCII.GetString(bytes, 0, bytesReadCount);
                    
-                    Byte[] msg = System.Text.Encoding.ASCII.GetBytes("<html><head><meta charset='utf8'></head><body>Hello webserver</body></html>");
+                    var msg = "<html><head><meta charset='utf8'></head><body>Hello webserver</body></html>";
 
-                    var res = System.Text.Encoding.ASCII.GetBytes("HTTP/1.1 200 OK\r\nServer: danyaserv/1.1\r\nContent-Language: ru\r\nContent-Type: text/html\r\nAccept-Ranges: bytes\r\nContent-Lenght: 75\r\nConnection: close\r\nAccept-Encoding: gzip, deflate\r\n\r\n");
-                    stream.Write(res, 0, res.Length);
-                    //writer.WriteLine(String.Format("HTTP/1.1 200 OK\r\nServer: danyaserv/1.1\r\nContent-Language: ru\r\nContent-Type: text/html\r\nAccept-Ranges: bytes\r\nContent-Lenght: {0}\r\nConnection: close\r\nAccept-Encoding: gzip, deflate\r\n", msg.Length));
-                   // writer.Flush();
-                    stream.Write(msg, 0, msg.Length);
+                    writer.Write("HTTP/1.0 200 OK");
+                    writer.Write(Environment.NewLine);
+                    writer.Write("Content-Type: text/html; charset=UTF-8");
+                    writer.Write(Environment.NewLine);
+                    writer.Write("Content-Length: " + msg.Length);
+                    writer.Write(Environment.NewLine);
+                    writer.Write(Environment.NewLine);
+                    writer.Write(msg);
+                    writer.Flush();
+                    //var res = System.Text.Encoding.ASCII.GetBytes("HTTP/1.1 200 OK\r\nServer: danyaserv/1.1\r\nContent-Language: ru\r\nContent-Type: text/html\r\nAccept-Ranges: bytes\r\nContent-Lenght: 75\r\nConnection: close\r\nAccept-Encoding: gzip, deflate\r\n\r\n");
+                    //stream.Write(res, 0, res.Length);
+                    //writer.WriteLine(String.Format("HTTP/1.0 200 OK\r\nDate: {0}\r\nServer: danyaserv/1.1\r\nContent-Language: ru\r\nContent-Type: text/html\r\nAccept-Ranges: bytes\r\nContent-Lenght: {1}\r\nConnection: Close\r\n\r\n<html><head><meta charset='utf8'></head><body>Hello webserver</body></html>", DateTime.Now, msg.Length));
+                    //writer.Flush();
+                    // stream.Write(msg, 0, msg.Length);
                     Console.WriteLine("Recived: {0}", data);
                     
                     //Console.WriteLine("Sent : {0}", ms);
