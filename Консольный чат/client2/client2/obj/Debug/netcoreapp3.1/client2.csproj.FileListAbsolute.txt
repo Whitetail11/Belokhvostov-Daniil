@@ -1,0 +1,12 @@
+D:\github\Belokhvostov-Daniil2\Консольный чат\client2\client2\bin\Debug\netcoreapp3.1\client2.exe
+D:\github\Belokhvostov-Daniil2\Консольный чат\client2\client2\bin\Debug\netcoreapp3.1\client2.deps.json
+D:\github\Belokhvostov-Daniil2\Консольный чат\client2\client2\bin\Debug\netcoreapp3.1\client2.runtimeconfig.json
+D:\github\Belokhvostov-Daniil2\Консольный чат\client2\client2\bin\Debug\netcoreapp3.1\client2.runtimeconfig.dev.json
+D:\github\Belokhvostov-Daniil2\Консольный чат\client2\client2\bin\Debug\netcoreapp3.1\client2.dll
+D:\github\Belokhvostov-Daniil2\Консольный чат\client2\client2\bin\Debug\netcoreapp3.1\client2.pdb
+D:\github\Belokhvostov-Daniil2\Консольный чат\client2\client2\obj\Debug\netcoreapp3.1\client2.csproj.CoreCompileInputs.cache
+D:\github\Belokhvostov-Daniil2\Консольный чат\client2\client2\obj\Debug\netcoreapp3.1\client2.AssemblyInfoInputs.cache
+D:\github\Belokhvostov-Daniil2\Консольный чат\client2\client2\obj\Debug\netcoreapp3.1\client2.AssemblyInfo.cs
+D:\github\Belokhvostov-Daniil2\Консольный чат\client2\client2\obj\Debug\netcoreapp3.1\client2.dll
+D:\github\Belokhvostov-Daniil2\Консольный чат\client2\client2\obj\Debug\netcoreapp3.1\client2.pdb
+D:\github\Belokhvostov-Daniil2\Консольный чат\client2\client2\obj\Debug\netcoreapp3.1\client2.genruntimeconfig.cache

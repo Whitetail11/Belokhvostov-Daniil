@@ -1,0 +1,13 @@
+D:\github\Belokhvostov-Daniil2\Консольный чат\Server\Server\bin\Debug\netcoreapp3.1\Server.exe
+D:\github\Belokhvostov-Daniil2\Консольный чат\Server\Server\bin\Debug\netcoreapp3.1\Server.deps.json
+D:\github\Belokhvostov-Daniil2\Консольный чат\Server\Server\bin\Debug\netcoreapp3.1\Server.runtimeconfig.json
+D:\github\Belokhvostov-Daniil2\Консольный чат\Server\Server\bin\Debug\netcoreapp3.1\Server.runtimeconfig.dev.json
+D:\github\Belokhvostov-Daniil2\Консольный чат\Server\Server\bin\Debug\netcoreapp3.1\Server.dll
+D:\github\Belokhvostov-Daniil2\Консольный чат\Server\Server\bin\Debug\netcoreapp3.1\Server.pdb
+D:\github\Belokhvostov-Daniil2\Консольный чат\Server\Server\obj\Debug\netcoreapp3.1\Server.csprojAssemblyReference.cache
+D:\github\Belokhvostov-Daniil2\Консольный чат\Server\Server\obj\Debug\netcoreapp3.1\Server.csproj.CoreCompileInputs.cache
+D:\github\Belokhvostov-Daniil2\Консольный чат\Server\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfoInputs.cache
+D:\github\Belokhvostov-Daniil2\Консольный чат\Server\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfo.cs
+D:\github\Belokhvostov-Daniil2\Консольный чат\Server\Server\obj\Debug\netcoreapp3.1\Server.dll
+D:\github\Belokhvostov-Daniil2\Консольный чат\Server\Server\obj\Debug\netcoreapp3.1\Server.pdb
+D:\github\Belokhvostov-Daniil2\Консольный чат\Server\Server\obj\Debug\netcoreapp3.1\Server.genruntimeconfig.cache

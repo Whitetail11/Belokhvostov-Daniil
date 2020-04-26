@@ -1,0 +1,13 @@
+D:\github\Belokhvostov-Daniil2\Консольный чат\client\client\obj\Debug\netcoreapp3.1\client.csprojAssemblyReference.cache
+D:\github\Belokhvostov-Daniil2\Консольный чат\client\client\obj\Debug\netcoreapp3.1\client.csproj.CoreCompileInputs.cache
+D:\github\Belokhvostov-Daniil2\Консольный чат\client\client\obj\Debug\netcoreapp3.1\client.AssemblyInfoInputs.cache
+D:\github\Belokhvostov-Daniil2\Консольный чат\client\client\obj\Debug\netcoreapp3.1\client.AssemblyInfo.cs
+D:\github\Belokhvostov-Daniil2\Консольный чат\client\client\bin\Debug\netcoreapp3.1\client.exe
+D:\github\Belokhvostov-Daniil2\Консольный чат\client\client\bin\Debug\netcoreapp3.1\client.deps.json
+D:\github\Belokhvostov-Daniil2\Консольный чат\client\client\bin\Debug\netcoreapp3.1\client.runtimeconfig.json
+D:\github\Belokhvostov-Daniil2\Консольный чат\client\client\bin\Debug\netcoreapp3.1\client.runtimeconfig.dev.json
+D:\github\Belokhvostov-Daniil2\Консольный чат\client\client\bin\Debug\netcoreapp3.1\client.dll
+D:\github\Belokhvostov-Daniil2\Консольный чат\client\client\bin\Debug\netcoreapp3.1\client.pdb
+D:\github\Belokhvostov-Daniil2\Консольный чат\client\client\obj\Debug\netcoreapp3.1\client.dll
+D:\github\Belokhvostov-Daniil2\Консольный чат\client\client\obj\Debug\netcoreapp3.1\client.pdb
+D:\github\Belokhvostov-Daniil2\Консольный чат\client\client\obj\Debug\netcoreapp3.1\client.genruntimeconfig.cache
